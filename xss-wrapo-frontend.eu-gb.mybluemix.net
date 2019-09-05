@@ -1,0 +1,21 @@
+hello security team 
+i found today xss in this subdomain
+http://wrapo-frontend.eu-gb.mybluemix.net/
+-----------------------------------------------------------------------
+
+Steps:-
+1-Register account in this domain
+2-Create Event
+3-CLick in COde view and write xss payload
+4-Complete other entries
+5-Click Create Event
+-----------------------------------------------------------------------
+
+Images :-
+1-
+2-
+-----------------------------------------------------------------------
+
+if you need video i can record this video ok if you need .
+
+#xElkomy
