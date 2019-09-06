@@ -10,6 +10,9 @@ or
 https://ecco-qa-vip-ashburn_pp.ash.ford.com/documents/xss.svg
 or xml files.
 
+Files uploaded xml:-
+https://ecco-qa-vip-ashburn_pp.ash.ford.com/asp/app/Upload/uploadlog.xml
+
 POC html form me:-
 
 images:-
