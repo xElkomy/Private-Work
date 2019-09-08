@@ -1,0 +1,20 @@
+hello copper team and hackerone
+i found flood xss in domain
+https://app.prosperworks.com
+
+Payload:-
+File 
+
+Video :-
+
+Image:-
+
+
+POC Step:-
+1-Register in this domain
+2-add comment or note
+3-Send comment or note
+
+
+My test app:-
+https://app.prosperworks.com/companies/301069/app?p=db#/tasks/default/task/17969153/activity
