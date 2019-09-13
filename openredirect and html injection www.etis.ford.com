@@ -17,3 +17,17 @@ this vulnerability is dangerous. You can put in the href url of the phishing sit
 impact Open redirect:-
 Attackers may be able to use this to execute believable phishing attacks, bypass authentication, or (in rare circumstances) violate CSRF mitigations.
 
+
+
+
+
+
+
+
+
+
+
+
+
+and this again step above:-
+http://www.etisorigin2.ford.com/
