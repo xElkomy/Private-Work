@@ -1,0 +1,4 @@
+'/help/index.jsp?view=<script>alert("xss")</script>' If Found For My tool => 'onloadHandler'
+'/global-protect/login.esp'  If Found For My tool => 'GlobalProtect Portal'
+'/phpinfo.php' If Found For my tool => 'PHP Version'
+'/wp-json/wp/v2/users' If Found For my tool => '[{"id"'
