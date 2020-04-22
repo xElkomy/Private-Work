@@ -4,3 +4,4 @@
 '/wp-json/wp/v2/users' '[{"id"'
 '/webmail/?language=pl&interface=pro&username=&color=%27"><svg/onload=prompt(%27xElkomy%27)//' 'Powered by IceWarp Server ©'
 '/composer.lock' 'https://github.com'
+'/en/embeddedAuthRedirect.html?auth=javascript:alert("xElkomy")' 'loadingIndicator'
