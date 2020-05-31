@@ -10,3 +10,4 @@
 '/REPORTSERVER/Pages/ReportViewer.aspx' 'ReportViewerControl'
 '/modcp/index.php?loginerror_arr[0]=badlogin_strikes_logintypeusername&loginerror_arr[1]=javascript:alert("xElkomy")&loginerror_arr[2]=1&vb_login_username=xElkomy' 'Version 5.5.4'
 '/_vti_bin/lists.asmx?WSDL' 'wsdl:definitions'
+'/servlet/taskProc?taskId=shortURL&taskEnv=xml&taskContentType=json&srcURL=https://www.google.com' 'errorMsg'
