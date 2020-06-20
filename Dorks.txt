@@ -14,3 +14,4 @@
 '/_plugin/kibana/' 'KIBANA_VERSION'
 '/api/jolokia/read<svg%20onload=alert(document.cookie)>?mimeType=text/html' 'No type with name'
 '/jolokia/read<svg%20onload=alert(document.cookie)>?mimeType=text/html' 'No type with name'
+'/examples/servlets/servlet/CookieExample' 'Cookies Example'
