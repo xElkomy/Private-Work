@@ -17,3 +17,4 @@
 '/examples/servlets/servlet/CookieExample' 'Cookies Example'
 '/uddiexplorer/SearchPublicRegistries.jsp' 'Login Form'
 '/html/js/editor/editor.jsp?editorImpl=../../../WEB-INF/web.xml?' '<?xml version="1.0"?>'
+'/Trace.axd' 'Application Trace'
